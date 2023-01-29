@@ -2,7 +2,7 @@
     <nav>
         <div class="navbar">
             <router-link class="navbar__item" to="/">
-                Товары
+                Продукция
                 <NavbarCategoriesList />
             </router-link>
             <router-link class="navbar__item" to="/about">О нас</router-link>

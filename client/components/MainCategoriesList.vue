@@ -1,36 +1,36 @@
 <template>
     <div class="categories">
-        <router-link class="categories__item" to="/about">
+        <router-link class="categories__item" to="/products">
             <img width="124px" src="@/static/icons/cabinets.svg" alt="cabinets Absolut">
-            <span>Шкафы</span>
+            <span class="categories__title">Шкафы</span>
         </router-link>
-        <router-link class="categories__item" to="/payment">
+        <router-link class="categories__item" to="/products">
             <img width="124px" src="@/static/icons/tables.svg" alt="tables Absolut">
-            <span>Столы</span>
+            <span class="categories__title">Столы</span>
         </router-link>
-        <router-link class="categories__item" to="/delivery">
+        <router-link class="categories__item" to="/products">
             <img width="124px" src="@/static/icons/dressers.svg" alt="dressers Absolut">
-            <span>Комоды</span>
+            <span class="categories__title">Комоды</span>
         </router-link>
-        <router-link class="categories__item" to="/contacts">
+        <router-link class="categories__item" to="/products">
             <img width="124px" src="@/static/icons/stands.svg" alt="stands Absolut">
-            <span>Тумбы</span>
+            <span class="categories__title">Тумбы</span>
         </router-link>
         <!-- <router-link class="categories__item" to="/delivery">
             <img width="124px" src="@/static/icons/dressers.svg" alt="dressers Absolut">
-            <span>Комоды</span>
+            <span class="categories__title">Комоды</span>
         </router-link>
         <router-link class="categories__item" to="/about">
             <img width="124px" src="@/static/icons/cabinets.svg" alt="cabinets Absolut">
-            <span>Шкафы</span>
+            <span class="categories__title">Шкафы</span>
         </router-link>
         <router-link class="categories__item" to="/contacts">
             <img width="124px" src="@/static/icons/stands.svg" alt="stands Absolut">
-            <span>Тумбы</span>
+            <span class="categories__title">Тумбы</span>
         </router-link>
         <router-link class="categories__item" to="/payment">
             <img width="124px" src="@/static/icons/tables.svg" alt="tables Absolut">
-            <span>Столы</span>
+            <span class="categories__title">Столы</span>
         </router-link> -->
     </div>
 </template>
@@ -38,6 +38,7 @@
 <style scoped>
     .categories {
         display: grid;
+        min-height: calc(100vh - 60px - 392px - 20px - 160px);
         grid-template-columns: 1fr 1fr 1fr 1fr;
         row-gap: 10px;
         column-gap: 10px;
@@ -48,28 +49,24 @@
         justify-content: center;
         flex-wrap: wrap;
         align-items: center;
-        height: 1fr;
         padding: 10px 10px 7px 10px;
-        border-radius: 4px;
-        border: 2px solid #fff;
+        border-radius: 6px;
+        border: 2px solid #cdb483;
         text-align: center;
         font-size: 20px;
         font-weight: 600;
-        background-color: #fff;
         color: #9f6212;
+        background-color: #fff;
         transition: .3s ease;
-    }
-    .list__item:last-child{
-        border-bottom: 0;
     }
     .categories__item img{
         padding: 10px;
     }
     .categories__item:hover{
-        background-color: #ebdfcf;
-        border-color: #9f6212;
+        box-shadow: 0 2px 4px rgb(159 98 18 / 12%);
+        border-color: #fff;
     }
-    .categories__item span{
+    .categories__title{
         width: 100%;
         padding: 10px 0;
     }

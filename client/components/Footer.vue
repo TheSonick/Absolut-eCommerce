@@ -4,10 +4,9 @@
             <ContactsBlock />
             <div class="extra">
                 <div class="extra__about">
-                    <router-link class="navbar__item" to="/about">О нас</router-link>
-                    <router-link class="navbar__item" to="/payment">Оплата</router-link>
-                    <router-link class="navbar__item" to="/delivery">Доставка</router-link>
+                    <router-link class="navbar__item" to="/delivery">Доставка и оплата</router-link>
                     <router-link class="navbar__item" to="/contacts">Контакты</router-link>
+                    <router-link class="navbar__item" to="/about">О нас</router-link>
                 </div>
                 <div class="extra__contacts">
                     <span>85114 г.Константиновка</span>  <br>
@@ -24,7 +23,7 @@
                     <a href="#" class="yt" target="blank"></a>
                 </div>
             </div>
-            <div class="copyright">Фабрика мебели "Абсолют" &#169; 1999-2021</div>
+            <div class="copyright">Фабрика мебели "Абсолют" 1999-2022 &#169; Все права защиещены.</div>
         </div>
     </footer>
 </template>

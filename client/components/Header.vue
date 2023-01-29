@@ -18,7 +18,7 @@ header{
     left: 0;
     right: 0;
     background-color: #fff;
-    box-shadow: 0 2px 4px rgb(0 0 0 / 12%);
+    box-shadow: 0 2px 4px rgb(159 98 18 / 12%);
     height: 60px;
     width: 100%;
 }

@@ -1,18 +1,18 @@
 <template>
     <div class="categories__list list">
-        <router-link class="list__item" to="/about">
+        <router-link class="list__item" to="/products">
             <img width="44px" src="@/static/icons/cabinets-mini.svg" alt="cabinets-mini Absolut">
             Шкафы
         </router-link>
-        <router-link class="list__item" to="/payment">
+        <router-link class="list__item" to="/products">
             <img width="44px" src="@/static/icons/tables-mini.svg" alt="tables-mini Absolut">
             Столы
         </router-link>
-        <router-link class="list__item" to="/delivery">
+        <router-link class="list__item" to="/products">
             <img width="44px" src="@/static/icons/dressers-mini.svg" alt="dressers-mini Absolut">
             Комоды
         </router-link>
-        <router-link class="list__item" to="/contacts">
+        <router-link class="list__item" to="/products">
             <img width="44px" src="@/static/icons/stands-mini.svg" alt="stands-mini Absolut">
             Тумбы
         </router-link>
@@ -26,7 +26,6 @@
         background-color: #fff;
         position: absolute;
         text-align: left;
-        box-shadow: 0 2px 4px rgb(0 0 0 / 12%);
         padding-top: 10px;
         top: 100%;
         left: -25%;
