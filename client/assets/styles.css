@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    background: #ebdfcf;
+    position: relative;
+    height: 100%;
+}
+
+*,
+*:before,
+*:after{
+    box-sizing: border-box;
+}
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+}
+
+p{
+    margin: 0 0 10;
+}
+a{
+    text-decoration: none;
+}
+
+/* Container */
+
+.container {
+    width: calc(100% - 20px);
+    max-width: 1366px;
+    margin: 0 auto;
+}
+main{
+    min-height: calc(100vh - 70px - 392px - 20px - 162px);
+    margin: 10px 0;
+}
